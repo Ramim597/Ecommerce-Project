@@ -4,7 +4,8 @@ import "../index.css";
 
 export function HomePage() {
   return (
-    <div>
+    <>
+      <title>Ecommerce Project</title>
       <div className="header">
         <div className="left-section">
           <a href="index.html" className="header-link">
@@ -184,6 +185,6 @@ export function HomePage() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
